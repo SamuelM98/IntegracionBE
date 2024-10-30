@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.cuerpo{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cuerpo, .persona{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin: 10px;
+  background-color: rgba(85, 81, 81, 0.199);
+  border: 1px solid black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+  background-color: rgba(43, 41, 41, 0.5);
+  color: white;
+}
+img{
+  border-radius: 15px;
+  border: 1px solid gray;
+}
