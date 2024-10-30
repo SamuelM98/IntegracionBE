@@ -17,7 +17,7 @@ const App = () => {
         <img src={data.results[0].picture.large} alt='imagen'/>
       </div>
     ))
-    
+    .catch(e=>console.log('El error fue'+e))
   }
 
   useEffect(()=>{
